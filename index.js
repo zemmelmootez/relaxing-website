@@ -58,3 +58,16 @@ function f1(){
   setTimeout(function(){
      location.reload();},12000);
 }
+
+function test2(){
+
+ 
+ 
+       if(document.getElementById("myaudio").muted==true)
+     document.getElementById("myaudio").muted=false;
+     else document.getElementById("myaudio").muted=true;
+
+  
+
+  
+}
