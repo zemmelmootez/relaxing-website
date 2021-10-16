@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+   
+    background-image: url(5509862.jpg);
+    background-size: cover;
+    background-origin: border-box;
+    opacity: 0.9;
+
+}
+
+ 
+
+ #type{
+
+     border-radius: 2px;
+
+    /* width:15vw;*/
+   /*  height: 2vw;*/
+     margin-left: 42.5vw;
+     margin-right: 42.5vw;
+     margin-top:47.6vh;
+     margin-bottom: 47.6vh;
+     outline:none;
+     height: 30px;
+     width:204.9px;
+     border:0;
+     border-bottom:2px solid rgb(235, 31, 48);
+      background-color:rgba(146, 146, 132, 0.171);
+    color:white;
+     padding:20px 10px;
+     font-weight:700;
+     opacity: 1;
+     transition: 2s opacity ;
+    
+ }
+ audio{
+     display: none;
+ }
+
+ .textanimated{
+    position: absolute;
+    bottom: 0;
+ 
+    left: 50%;
+    color: white;
+    font-size: 30px;
+    /* display: none;*/
+    transition: 10s all ease-out;
+    
+ }
